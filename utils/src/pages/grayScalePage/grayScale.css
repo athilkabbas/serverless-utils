@@ -1,0 +1,36 @@
+.buttonContainerGray {
+    display: flex;
+    min-width: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #aaaaaa;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.containerGray {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 100vh;
+}
+
+.containerGray div {
+    margin: 10px;
+}
+
+.displayNoneGray {
+    display: none;
+}
+
+.displayGray {
+    display: flex;
+}
+
+.maxWidthGray {
+    max-width: 400px;
+    max-height: 700px;
+}
